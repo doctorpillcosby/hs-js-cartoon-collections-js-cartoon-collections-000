@@ -33,10 +33,26 @@ function findTheCheese (foods) {
   if (foods[i]=="cheddar"
   ||foods[i]=="gouda"
   ||foods[i]=="camembert"
+  ||food[i] == "pepperjack"
   ){
     return foods[i]
   }
 }
 return "no cheese!"
+}
+
+function wordsWithB (words) {
+  var array = []
+  for(var i=0; i<words.length;i++){
+    if(words[i].includes("b")){
+     array.push(word[i])
+    }
+  } return array 
+     
+     
+    
+    
+  }
+}
 }
  
