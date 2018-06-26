@@ -1,3 +1,4 @@
+
  var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
  
  function dwarfRollCall(dwarves){
@@ -7,7 +8,10 @@
    }
    return array.join("")
  }
- 
+
+
+
+
 function summonCaptainPlanet(planeteerCalls){
  return planeteerCalls.map(a=>a.toUpperCase()+"!")
  
